@@ -19,6 +19,9 @@ const Cart = (props) => {
     cartCtx.addItem({ ...item, amount: 1 });
   };
 
+ // improved dummy const!!!
+const dummy = ""
+
   const cartItems = (
     <ul className={classes['cart-items']}>
       {cartCtx.items.map((item) => (
